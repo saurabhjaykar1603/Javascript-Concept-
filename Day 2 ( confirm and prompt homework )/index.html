@@ -19,7 +19,12 @@
         document.write("marks of Account" + Account + "<br/>");
         document.write("marks of bussiness communication" + bussiness + "<br/>");
         
-       
+        // parseInt use for converts string into number 
+        const sum = parseInt(hindi) + parseInt(marathi) + parseInt(Account) + parseInt(bussiness);
+        document.write("Total Marks" + sum + "<br/>");
+
+        const per = parseFloat(sum / 5);
+        document.write("total percentage" + per + "%")
 
     </script>
 </head>
