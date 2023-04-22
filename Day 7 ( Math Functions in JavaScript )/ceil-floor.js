@@ -7,4 +7,5 @@ document.write("<br/>ceilingValue:" + ceilingValue);
 const floorValue = Math.floor(num);
 document.write("<br/>floorValue: "+ floorValue)
 
-// used html file for example 
+// Go live with html file to use output 
+

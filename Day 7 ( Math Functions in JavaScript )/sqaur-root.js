@@ -4,3 +4,5 @@ document.write("Actual Value: " + num + "<br/>");
 
 const result = Math.sqrt(num);
 document.write("Result: " + result);
+
+// Go live with html file to use output 
