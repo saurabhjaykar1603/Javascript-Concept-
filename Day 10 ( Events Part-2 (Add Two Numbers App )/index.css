@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calcy-container {
+    display: flex;
+    background-color: rgb(62, 59, 59);
+    /* height: 400px; */
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.calcyinput {
+    display: block;
+    height: 56px;
+    width: 45%;
+    margin-top: 45px;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder {
+    color: rgba(40, 40, 40, 0.677);
+    word-spacing: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.calcy-btn {
+    margin-top: 20PX;
+
+    display: block;
+    background-color: #3498db;
+
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    /* margin-top: 40px; */
+    width: 20%;
+    transition: all 0.3s ease-in-out;
+}
+
+.calcy-sum {
+    margin-top: 15PX;
+    font-size: 55px;
+    color: white;
+
+}
+
+.calcy-btn:hover {
+
+    text-decoration: none;
+    background-color: #0a85dd;
+}
+.calcy-clear{
+    margin-top: 20PX;
+
+    display: block;
+    background-color: #17f66c;
+
+    border-radius: 12px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 1.6rem;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    /* margin-top: 40px; */
+    width: 20%;
+    transition: all 0.3s ease-in-out;
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+ 
+    .calcyinput {
+      display: block;
+      height: 56px;
+      width: 100%;
+      margin-top: 45px;
+      outline: none;
+      font-size: 25px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+/*       background-color: red; */
+  }
+  .calcy-sum {
+    margin-top: 15PX;
+    font-size: 35px;
+    color: white;
+
+}
+  .calcy-btn {
+    margin-top: 20PX;
+
+    display: block;
+    background-color: #3498db;
+
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    /* margin-top: 40px; */
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+  .calcy-clear{
+    margin-top: 20PX;
+
+    display: block;
+    background-color: #17f66c;
+
+    border-radius: 12px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 1.6rem;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    /* margin-top: 40px; */
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+  }
