@@ -1,0 +1,28 @@
+.danzer{
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+}
+
+.warning{
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+
+}
+
+.success{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: sienna;
+    text-align: center;
+}
+.box{
+    display: flex;
+}
