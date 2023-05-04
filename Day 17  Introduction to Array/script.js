@@ -23,3 +23,18 @@
 
         student[0] = "Pavanraj";
         console.log(`Array After changing: ${student}`)
+
+   
+
+        // how to fill Empty Array
+
+        const stud = [];
+        stud[0] = "Harsh";
+        stud[1] = "Saurabh";
+        stud[2] = "Jyoti";
+        stud[3] = "Payal";
+        stud[4] = "Komal";
+        stud[5] = "Kalyani";
+
+        console.log(`${stud}`)
+     
