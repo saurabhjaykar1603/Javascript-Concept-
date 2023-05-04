@@ -10,7 +10,7 @@
         const student = ["Pavan", "Saurabh", "Mahesh", "Avinash", "Aditya"];
         console.log(student)
 
-        // how to Access indiviual value
+        // how to Access individual value
         console.log(student[0])
         console.log(student[1])
         console.log(student[2])
