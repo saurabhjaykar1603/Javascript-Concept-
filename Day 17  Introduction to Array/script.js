@@ -16,3 +16,10 @@
         console.log(student[2])
         const laststudent = student[4];
         console.log(laststudent)
+
+        
+        // how to change Array value
+        console.log(`Array Before changing: ${student}`)
+
+        student[0] = "Pavanraj";
+        console.log(`Array After changing: ${student}`)
