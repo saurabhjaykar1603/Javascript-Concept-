@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function lifeInWeeks(age) {
+            let yearsRemaining = 90 - age;
+            let days = yearsRemaining * 365;
+            let weeks = yearsRemaining * 52;
+            let month = yearsRemaining * 12;
+            console.log("You have " +days+ " days," + weeks + " weeks,and" + month + " month Left.");
+        }
+        lifeInWeeks(prompt("enter youe Age"))
+    </script>
+</body>
+
+</html>
