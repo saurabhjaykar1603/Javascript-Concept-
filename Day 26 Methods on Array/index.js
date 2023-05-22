@@ -18,3 +18,12 @@ const Marks = [50,45,30,20,10]
 console.log(Marks)
 Marks.pop()
 console.log(Marks)
+
+// 4. unshift
+
+// To insert element from the start of array.
+
+const stud = ["yogita","harshada","pratik","harsh"]
+console.log(stud)
+stud.unshift("Saurabh")
+console.log(stud)
