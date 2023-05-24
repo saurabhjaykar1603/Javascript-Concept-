@@ -27,3 +27,11 @@ const stud = ["yogita","harshada","pratik","harsh"]
 console.log(stud)
 stud.unshift("Saurabh")
 console.log(stud)
+
+// 5. Shift
+
+// To delete elements from the start of array.
+const stud1 = ["yogita","harshada","pratik","harsh"]
+console.log(stud1)
+    stud1.shift()
+console.log(stud1)
