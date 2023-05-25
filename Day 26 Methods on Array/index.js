@@ -35,3 +35,11 @@ const stud1 = ["yogita","harshada","pratik","harsh"]
 console.log(stud1)
     stud1.shift()
 console.log(stud1)
+
+// 6. splice() This function can perform insertion and deletion at once.
+// splice(index, no.of elements to delete, elements to insert)
+
+const name1 = ["saurabh","sakshi","harsh","yogita","harshada","harsh"]
+console.log(name1)
+name1.splice(1, 2,"sau","kunal")
+console.log(name1)
