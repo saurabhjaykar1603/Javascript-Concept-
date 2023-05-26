@@ -43,3 +43,8 @@ const name1 = ["saurabh","sakshi","harsh","yogita","harshada","harsh"]
 console.log(name1)
 name1.splice(1, 2,"sau","kunal")
 console.log(name1)
+
+// 7. join()
+// Convert array to string default separator is , but we can change it.
+const alpha = ["A","B","C","D","E","F"] 
+console.log(alpha.join())
