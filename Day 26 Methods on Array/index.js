@@ -48,3 +48,10 @@ console.log(name1)
 // Convert array to string default separator is , but we can change it.
 const alpha = ["A","B","C","D","E","F"] 
 console.log(alpha.join())
+
+
+// 8. reverse()
+// for reverse the Element of array
+const num = [1,2,3,4,5]
+num.reverse()
+console.log(num)
