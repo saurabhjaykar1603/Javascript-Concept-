@@ -55,3 +55,8 @@ console.log(alpha.join())
 const num = [1,2,3,4,5]
 num.reverse()
 console.log(num)
+
+// 9. sort()
+// The sort() sorts the elements as strings in alphabetical and ascending order.
+const fru = ["Banana", "Orange", "Apple", "Mango"];
+fru.sort();
