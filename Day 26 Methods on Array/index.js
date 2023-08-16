@@ -60,3 +60,9 @@ console.log(num)
 // The sort() sorts the elements as strings in alphabetical and ascending order.
 const fru = ["Banana", "Orange", "Apple", "Mango"];
 fru.sort();
+
+// 10. indexOf()
+
+const inde = ["Z","A","D","B"]
+const index = inde.indexOf("A")
+console.log(index)
